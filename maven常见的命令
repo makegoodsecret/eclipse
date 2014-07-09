@@ -58,6 +58,11 @@ mvn eclipse:eclipse                将项目转化为Eclipse项目
         <name>Planet Mirror</name>      
         <url>http://public.planetmirror.com/pub/maven/</url>    
     </repository>  
+        <repository>
+	      <id>springsource-repo</id>
+	      <name>SpringSource Repository</name>
+	      <url>http://repo.springsource.org/release</url>
+	    </repository>
 </repositories> 
 
 
